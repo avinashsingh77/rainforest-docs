@@ -1,14 +1,14 @@
 schemaVersion: 2.1.0
 metadata:
   name: rainforest
-attributes:
-  che-theia.eclipse.org/sidecar-policy: USE_DEV_CONTAINER
-  controller.devfile.io/devworkspace-config:
-    name: devworkspace-config
-    namespace: rainforest-workspaces
-  controller.devfile.io/storage-type: per-workspace
-  metadata-name-field: generateName
-  metadata-name-original-value: rainforest-
+# attributes:
+#   che-theia.eclipse.org/sidecar-policy: USE_DEV_CONTAINER
+#   controller.devfile.io/devworkspace-config:
+#     name: devworkspace-config
+#     namespace: rainforest-workspaces
+#   controller.devfile.io/storage-type: per-workspace
+#   metadata-name-field: generateName
+#   metadata-name-original-value: rainforest-
 projects:
   - attributes:
       source-origin: branch
