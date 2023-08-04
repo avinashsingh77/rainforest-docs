@@ -17,8 +17,8 @@ projects:
 # cannot load devfile from private repo - https://access.redhat.com/solutions/5859851
 # checkoutFrom Bug - https://issues.redhat.com/browse/CRW-3381
 # https://github.com/devfile/devworkspace-operator/pull/997
-#      checkoutFrom:
-#        revision: main
+     checkoutFrom:
+       revision: main
       remotes:
         origin: 'https://github.com/eformat/rainforest'
     name: rainforest
