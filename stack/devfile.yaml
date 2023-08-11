@@ -20,7 +20,7 @@ projects:
 #      checkoutFrom:
 #        revision: main
       remotes:
-        origin: 'https://github.com/eformat/rainforest'
+        origin: 'https://github.com/opendatahub-io-contrib/data-mesh-pattern.git'
     name: rainforest
 components:
   - container:
