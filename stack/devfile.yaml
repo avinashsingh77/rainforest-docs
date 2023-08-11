@@ -12,7 +12,7 @@ attributes:
 projects:
   - attributes:
       source-origin: branch
-    clonePath: rainforest
+    clonePath: data-mesh-pattern
     git:
 # cannot load devfile from private repo - https://access.redhat.com/solutions/5859851
 # checkoutFrom Bug - https://issues.redhat.com/browse/CRW-3381
@@ -21,7 +21,7 @@ projects:
 #        revision: main
       remotes:
         origin: 'https://github.com/opendatahub-io-contrib/data-mesh-pattern.git'
-    name: rainforest
+    name: data-mesh-pattern
 components:
   - container:
       args:
